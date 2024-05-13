@@ -5,7 +5,11 @@
 とりあえず、今日思いついて雑に設計してみた。
 並行処理とかテストとか積極的に書いていきたい。
 
-## イメージ
+## 概要
+
+習慣化をゲーム感覚で楽しめるCLIのアプリケーション
+
+## 完成イメージ
 
 command:`keizoku asakatsu`
 ```
@@ -20,10 +24,10 @@ command:`keizoku asakatsu`
 
 - コマンドが実行されたタイミングで値を計算する必要がある
 
-## 実行できるコマンド
+## 実行できるコマンド(例)
 - `keizoku git_commit +2`
-- `keizoku new rannning 10 20`
-- `keizoku delete ranning`
+- `keizoku new running {ランクキープの値} {ランクアップの値} ` 
+- `keizoku delete running`
 - `keizoku list`
 - `keizoku help`
 
