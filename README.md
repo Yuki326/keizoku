@@ -29,7 +29,17 @@ command:`keizoku asakatsu`
 - `keizoku new running {ランクキープの値} {ランクアップの値} ` 
 - `keizoku delete running`
 - `keizoku list`
+- `keizoku asaktsu history`
 - `keizoku help`
+
+## コンセプト
+
+- 手軽さ
+	- ローカルだけでいつでもすぐに実行できる
+	- 操作が分かりやすい
+- ゲーミフィケーションの考え方を取り入れる
+	- 初めはシンプルかつ誘導的に(オンボーディング)　-> 熟達しているという満足感と、達成感を与える
+		- ex:ランクの仕組み,デフォルト値,チュートリアル,丁寧な説明
 
 ## データ構造
 - オブジェクト：Routine,History
